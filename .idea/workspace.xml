@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33a0b67-d56b-4e48-bfb8-01f708c61fb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/bah/pages/CorrectAmenityPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java" afterPath="$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bah/steps/LocationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/bah/steps/LocationSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.html" afterPath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.json" afterPath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.xml" afterPath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/2316c720e1050d98a6fc7bc73ca4dafd_screenshots.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c7cdacd37357d2f2e64fd0287c6dbc1b.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c7cdacd37357d2f2e64fd0287c6dbc1b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.html" afterPath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.json" afterPath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.xml" afterPath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b_screenshots.html" afterPath="$PROJECT_DIR$/target/site/serenity/c7cdacd37357d2f2e64fd0287c6dbc1b_screenshots.html" />
     </list>
     <ignored path="RecGovTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +32,7 @@
       <file leaf-file-name="LocationSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bah/steps/LocationSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="72">
               <caret line="11" column="127" selection-start-line="11" selection-start-column="127" selection-end-line="11" selection-end-column="127" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,8 +56,8 @@
       <file leaf-file-name="LocationTestSuite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bah/LocationTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,8 +66,8 @@
       <file leaf-file-name="CorrectAmenityPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/CorrectAmenityPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="e#1361#1362#0" expanded="true" />
                 <element signature="e#1414#1415#0" expanded="true" />
@@ -89,21 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosestLocationPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClosestLocationPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="37" column="190" selection-start-line="37" selection-start-column="190" selection-end-line="37" selection-end-column="190" />
+              <caret line="37" column="178" selection-start-line="37" selection-start-column="178" selection-end-line="37" selection-end-column="178" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LookupALocation.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LookupALocation.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookupALocation.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -663,8 +650,8 @@
         <option value="$PROJECT_DIR$/src/test/java/bah/LocationTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookupALocation.feature" />
         <option value="$PROJECT_DIR$/src/test/java/bah/pages/CorrectAmenityPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/bah/steps/LocationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java" />
       </list>
     </option>
   </component>
@@ -1262,8 +1249,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1272,7 +1259,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1448,33 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bah/LocationTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/CorrectAmenityPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="37" column="190" selection-start-line="37" selection-start-column="190" selection-end-line="37" selection-end-column="190" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bah/steps/serenity/EndLocationSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
@@ -1487,7 +1447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bah/steps/LocationSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="72">
           <caret line="11" column="127" selection-start-line="11" selection-start-column="127" selection-end-line="11" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1495,10 +1455,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bah/LocationTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookupALocation.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/CorrectAmenityPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bah/pages/ClosestLocationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="37" column="178" selection-start-line="37" selection-start-column="178" selection-end-line="37" selection-end-column="178" />
           <folding />
         </state>
       </provider>

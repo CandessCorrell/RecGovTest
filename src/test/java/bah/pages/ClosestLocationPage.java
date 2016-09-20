@@ -35,7 +35,7 @@ public class ClosestLocationPage extends PageObject {
 
     public List<String> getDefinitions() {
         WebElementFacade definitionList = find(By.className("campgroundlisting-component")); //the div tag containing only the search results
-        List<WebElement> results = definitionList.findElements(By.tagName("span")); //<span></span> is the name of the html that contains the locations i.e. "Near Yosemite National Park, CA"
+        List<WebElement> results = definitionList.findElements(By.tagName("span")); //<span></span> is the name of the html that contains the locations in the search results page i.e. "Near Yosemite National Park, CA"
         return convert(results, toStrings());
     }
 
