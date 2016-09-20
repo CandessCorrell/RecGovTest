@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Looking up the definition of 'pear'" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-09-20T13:50:06" hostname="C02S2232FVH8.local" time="3.895">
+  <properties/>
+  <testcase name="Given the user is on the Wikionary home page" classname="Scenario: Looking up the definition of 'pear'" time="0.0"/>
+  <testcase name="When the user looks up the definition of the word 'pear'" classname="Scenario: Looking up the definition of 'pear'" time="0.0"/>
+  <testcase name="Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'" classname="Scenario: Looking up the definition of 'pear'" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Looking up the definition of 'pear'" time="4.732"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

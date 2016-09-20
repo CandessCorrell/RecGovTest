@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Looking up the definition of 'apple'" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-09-20T13:49:58" hostname="C02S2232FVH8.local" time="6.854">
+  <properties/>
+  <testcase name="Given the user is on the Wikionary home page" classname="Scenario: Looking up the definition of 'apple'" time="0.0"/>
+  <testcase name="When the user looks up the definition of the word 'apple'" classname="Scenario: Looking up the definition of 'apple'" time="0.0"/>
+  <testcase name="Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'" classname="Scenario: Looking up the definition of 'apple'" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Looking up the definition of 'apple'" time="11.405"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 20593
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
