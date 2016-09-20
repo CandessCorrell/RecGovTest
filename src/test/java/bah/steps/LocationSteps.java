@@ -23,7 +23,7 @@ public class LocationSteps {
         jeff.looks_for(word);
     }
 
-    @Then("they should see at least a park '(.*)'") //What the
+    @Then("they should see at least a park '(.*)'") //What the string found on the internet is compared to in to test if it's correct (seen in LookupAlocation.feature)
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
         jeff.should_see_definition(definition);
     }
