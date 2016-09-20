@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the place &apos;Grand Canyon&apos;" name="Looking up the place &apos;Grand Canyon&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10148" timestamp="2016-09-20T13:27:57.394-04:00" session-id="bef2f6061e4212420045d9c51418dab4">
+<acceptance-test-run title="Looking up the place &apos;Grand Canyon&apos;" name="Looking up the place &apos;Grand Canyon&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4849" timestamp="2016-09-20T15:38:26.620-04:00" session-id="d5ed5d83cc6a7e7baf26d5af98c128d9">
   <user-story id="lookup-a-location" name="Lookup a location" path="consult_dictionary/LookupALocation.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -7,35 +7,38 @@
   </tags>
   <test-group name="Given the user is on the Recs.gov home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
-      <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+      <screenshot image="03ae4c6a91497ca6232b6f56ea00a6d2.png"/>
+      <screenshot image="00b3b1ef4bc05fc90de9660f5be2fd15.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1771">
+    <test-step result="SUCCESS" duration="765">
       <screenshots>
-        <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
-        <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+        <screenshot image="03ae4c6a91497ca6232b6f56ea00a6d2.png"/>
+        <screenshot image="dc9051b4f951b9efae6360bb54a722d5.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
   <test-group name="When the user looks up the place &apos;Grand Canyon&apos;" result="SUCCESS">
     <screenshots>
-      <screenshot image="69d2dcf2d7e40b01d19b61cdb2e3308f.png"/>
+      <screenshot image="7caa04db7b45d613ddc32b02b7d5ce55.png"/>
+      <screenshot image="85084a1d4633cd8f29a969142047dc2f.png"/>
     </screenshots>
     <test-group name="Looks for: Grand Canyon" result="SUCCESS">
       <screenshots>
-        <screenshot image="69d2dcf2d7e40b01d19b61cdb2e3308f.png"/>
+        <screenshot image="00df82560147a4d9859eb7e429daaf36.png"/>
+        <screenshot image="4f4e94ba30f6b2cf5d144b460dcb6b28.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1435">
+      <test-step result="SUCCESS" duration="538">
         <screenshots>
-          <screenshot image="10dacb540535c99f1fc2e67b4cf60f43.png"/>
+          <screenshot image="00df82560147a4d9859eb7e429daaf36.png"/>
+          <screenshot image="5d94ec9b062b3b4968ef92cc646c4f4c.png"/>
         </screenshots>
         <description>Enters: Grand Canyon</description>
       </test-step>
-      <test-step result="SUCCESS" duration="1359">
+      <test-step result="SUCCESS" duration="373">
         <screenshots>
-          <screenshot image="f291e209be6b3c5cca06b4f9c091a321.png"/>
-          <screenshot image="829944129d2a8a7b660edeac24b2fa3f.png"/>
+          <screenshot image="bf165dc3c64fedab08e7900e26810fde.png"/>
+          <screenshot image="519bf484512308023cc4c502fbaac625.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
@@ -43,13 +46,13 @@
   </test-group>
   <test-group name="Then they should see at least a park &apos;Near Grand Canyon, AZ&apos;" result="SUCCESS">
     <screenshots>
-      <screenshot image="2a61a7b7460bd04537d980e66724d93f.png"/>
-      <screenshot image="ea16959e7fca71e83f86cc476adfa453.png"/>
+      <screenshot image="e9d70d89ccc38e418d447fd585f60991.png"/>
+      <screenshot image="8091e40bfcc41c2d20ff4db61b2d1171.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2291">
+    <test-step result="SUCCESS" duration="1649">
       <screenshots>
-        <screenshot image="0323c693f9204e45e5141b4aca2bdb52.png"/>
-        <screenshot image="ea16959e7fca71e83f86cc476adfa453.png"/>
+        <screenshot image="e9d70d89ccc38e418d447fd585f60991.png"/>
+        <screenshot image="8091e40bfcc41c2d20ff4db61b2d1171.png"/>
       </screenshots>
       <description>Should see definition: Near Grand Canyon, AZ</description>
     </test-step>

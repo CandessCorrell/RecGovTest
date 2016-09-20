@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the place &apos;Yosemite&apos;" name="Looking up the place &apos;Yosemite&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13882" timestamp="2016-09-20T13:27:42.738-04:00" session-id="bef2f6061e4212420045d9c51418dab4">
+<acceptance-test-run title="Looking up the place &apos;Yosemite&apos;" name="Looking up the place &apos;Yosemite&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8023" timestamp="2016-09-20T15:38:17.869-04:00" session-id="d5ed5d83cc6a7e7baf26d5af98c128d9">
   <user-story id="lookup-a-location" name="Lookup a location" path="consult_dictionary/LookupALocation.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -7,33 +7,33 @@
   </tags>
   <test-group name="Given the user is on the Recs.gov home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+      <screenshot image="00df82560147a4d9859eb7e429daaf36.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="4102">
+    <test-step result="SUCCESS" duration="3159">
       <screenshots>
-        <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+        <screenshot image="00df82560147a4d9859eb7e429daaf36.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
   <test-group name="When the user looks up the place &apos;Yosemite&apos;" result="SUCCESS">
     <screenshots>
-      <screenshot image="3dec2b7574748b2e4302856526547b61.png"/>
+      <screenshot image="efdef9ea19587f1d1b85508368809da8.png"/>
     </screenshots>
     <test-group name="Looks for: Yosemite" result="SUCCESS">
       <screenshots>
-        <screenshot image="39d7e5be084cfcf966f301f811be0ff1.png"/>
+        <screenshot image="efdef9ea19587f1d1b85508368809da8.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1426">
+      <test-step result="SUCCESS" duration="604">
         <screenshots>
-          <screenshot image="e0225cdfd52a91044fdde6f0f9fa3ad4.png"/>
+          <screenshot image="607c132bdc1460ef5b0d7b6389e34e63.png"/>
         </screenshots>
         <description>Enters: Yosemite</description>
       </test-step>
-      <test-step result="SUCCESS" duration="1262">
+      <test-step result="SUCCESS" duration="400">
         <screenshots>
-          <screenshot image="347b6b55c5ba266544f75831c2da703a.png"/>
-          <screenshot image="f143ff3d22197f5ba9acaacbfef8b06c.png"/>
+          <screenshot image="93caa207465655434fe56df2f67b6251.png"/>
+          <screenshot image="59660de1015982bf14dcd795efb2e7ae.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
@@ -41,12 +41,13 @@
   </test-group>
   <test-group name="Then they should see at least a park &apos;Near Yosemite National Park, CA&apos;" result="SUCCESS">
     <screenshots>
-      <screenshot image="9a24b2bbfa341f77c06850335d758e57.png"/>
-      <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
+      <screenshot image="14acef7b3700741b13a2861c1129bdac.png"/>
+      <screenshot image="03ae4c6a91497ca6232b6f56ea00a6d2.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2005">
+    <test-step result="SUCCESS" duration="2064">
       <screenshots>
-        <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
+        <screenshot image="14acef7b3700741b13a2861c1129bdac.png"/>
+        <screenshot image="03ae4c6a91497ca6232b6f56ea00a6d2.png"/>
       </screenshots>
       <description>Should see definition: Near Yosemite National Park, CA</description>
     </test-step>
