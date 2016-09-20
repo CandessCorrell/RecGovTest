@@ -1,0 +1,55 @@
+<acceptance-test-run title="Looking up the definition of &apos;Yosemite&apos;" name="Looking up the definition of &apos;Yosemite&apos;" description="" steps="4" successful="2" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="12620" timestamp="2016-09-20T12:56:21.082-04:00" session-id="f0b841cb930e31136f3b92b4162e3103">
+  <user-story id="lookup-a-definition" name="Lookup a definition" path="consult_dictionary/LookupALocation.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Lookup a definition" type="feature"/>
+  </tags>
+  <test-group name="Given the user is on the Recs.gov home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4765">
+      <screenshots>
+        <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user looks up the place &apos;Yosemite&apos;" result="ERROR">
+    <screenshots>
+      <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+    </screenshots>
+    <test-group name="Looks for: Yosemite" result="ERROR">
+      <screenshots>
+        <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1395">
+        <screenshots>
+          <screenshot image="e0225cdfd52a91044fdde6f0f9fa3ad4.png"/>
+        </screenshots>
+        <description>Enters: Yosemite</description>
+      </test-step>
+      <test-step result="ERROR" duration="3543">
+        <screenshots>
+          <screenshot image="68b1454feb86323ef17b101eb6e50ba9.png"/>
+          <screenshot image="68b1454feb86323ef17b101eb6e50ba9.png" source="pagesource5964052535477006907.html.txt"/>
+        </screenshots>
+        <description>Starts search</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown
+[bah.pages.ClosestLocationPage.lookup_terms(ClosestLocationPage.java:33), bah.steps.serenity.EndLocationSteps.starts_search(EndLocationSteps.java:22), bah.steps.serenity.EndLocationSteps.looks_for(EndLocationSteps.java:38), bah.steps.LocationSteps.whenTheUserLooksUpTheDefinitionOf(LocationSteps.java:22)]</exception>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-step result="SKIPPED" duration="2">
+    <description>Then they should see the description &apos;Near Yosemite National Park, CA&apos;</description>
+  </test-step>
+</acceptance-test-run>

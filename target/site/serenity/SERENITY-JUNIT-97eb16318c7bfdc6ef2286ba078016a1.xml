@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Lookup a definition" skipped="0" tests="2" time="13.71" timestamp="2016-09-264 09:49:54"><testcase name="Looking up the definition of 'apple'"/><testcase name="Looking up the definition of 'pear'"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Lookup a definition" skipped="0" tests="2" time="16.21" timestamp="2016-09-264 11:50:45"><testcase name="Looking up the definition of 'apple'"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+bah.pages.DictionaryPage.lookup_terms(DictionaryPage.java:33)
+bah.steps.serenity.EndUserSteps.starts_search(EndUserSteps.java:22)
+bah.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:38)
+bah.steps.DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(DefinitionSteps.java:22)
+</system-err></testcase><testcase name="Looking up the definition of 'pear'"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'C02S2232FVH8.local', ip: '10.201.28.243', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+bah.pages.DictionaryPage.lookup_terms(DictionaryPage.java:33)
+bah.steps.serenity.EndUserSteps.starts_search(EndUserSteps.java:22)
+bah.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:38)
+bah.steps.DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(DefinitionSteps.java:22)
+</system-err></testcase></testsuite>

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4610" timestamp="2016-09-20T09:50:05.759-04:00" session-id="374afc171f01ad2bb9107382376c7298">
+<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" description="" steps="4" successful="2" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="5568" timestamp="2016-09-20T11:50:57.935-04:00" session-id="d58acc6933612c4bdbac529051dee2d8">
   <user-story id="lookup-a-definition" name="Lookup a definition" path="consult_dictionary/LookupADefinition.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -7,52 +7,52 @@
   </tags>
   <test-group name="Given the user is on the Wikionary home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="70f17085b01c7432ad46c52324198a46.png"/>
-      <screenshot image="e108c56a9dbde75a52d90674919c882c.png"/>
+      <screenshot image="7d53d8f21f272a3a1cecd554c6a573a0.png"/>
+      <screenshot image="aef1be34b7ceeb2dcb33c89ae953359a.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="636">
+    <test-step result="SUCCESS" duration="1086">
       <screenshots>
-        <screenshot image="70f17085b01c7432ad46c52324198a46.png"/>
-        <screenshot image="814e1dc9a1b8d4a72e11d495e7c7007e.png"/>
+        <screenshot image="c0d4a2b0524319660fa9b7d4b5128115.png"/>
+        <screenshot image="fa04804cd2d2658692b00f4388236bef.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When the user looks up the definition of the word &apos;pear&apos;" result="SUCCESS">
+  <test-group name="When the user looks up the definition of the word &apos;pear&apos;" result="ERROR">
     <screenshots>
-      <screenshot image="b60205ce846647afcdf04b837644c8f8.png"/>
-      <screenshot image="8b976ef12db447cf951803ceaae819ee.png"/>
+      <screenshot image="aef1be34b7ceeb2dcb33c89ae953359a.png"/>
     </screenshots>
-    <test-group name="Looks for: pear" result="SUCCESS">
+    <test-group name="Looks for: pear" result="ERROR">
       <screenshots>
-        <screenshot image="a5948fc15d1a6b819f797745e4f3f86c.png"/>
-        <screenshot image="8b976ef12db447cf951803ceaae819ee.png"/>
+        <screenshot image="aef1be34b7ceeb2dcb33c89ae953359a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="533">
+      <test-step result="SUCCESS" duration="714">
         <screenshots>
-          <screenshot image="0379cf03760841d659524eb671741c5a.png"/>
-          <screenshot image="da34f2a7749040da594ea5eb8363fd8c.png"/>
+          <screenshot image="7c8420f801ff6286d1d990ec8fdde6b3.png"/>
         </screenshots>
         <description>Enters: pear</description>
       </test-step>
-      <test-step result="SUCCESS" duration="1185">
+      <test-step result="ERROR" duration="2828">
         <screenshots>
-          <screenshot image="5ecea05a4542512ed81e3ed4ac426002.png"/>
-          <screenshot image="c57886ca3d1280e46477ad75e31610cd.png"/>
+          <screenshot image="c215967a8c636ef52c617d4a1236dc1b.png"/>
+          <screenshot image="7bc3fc03c0d04fd6a0463f7724a631d4.png" source="pagesource8513194546114377468.html.txt"/>
         </screenshots>
         <description>Starts search</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown
+[bah.pages.DictionaryPage.lookup_terms(DictionaryPage.java:33), bah.steps.serenity.EndUserSteps.starts_search(EndUserSteps.java:22), bah.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:38), bah.steps.DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(DefinitionSteps.java:22)]</exception>
       </test-step>
     </test-group>
   </test-group>
-  <test-group name="Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;" result="SUCCESS">
-    <screenshots>
-      <screenshot image="8b976ef12db447cf951803ceaae819ee.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="473">
-      <screenshots>
-        <screenshot image="8b976ef12db447cf951803ceaae819ee.png"/>
-      </screenshots>
-      <description>Should see definition: An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.</description>
-    </test-step>
-  </test-group>
+  <test-step result="SKIPPED" duration="22">
+    <description>Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;</description>
+  </test-step>
 </acceptance-test-run>

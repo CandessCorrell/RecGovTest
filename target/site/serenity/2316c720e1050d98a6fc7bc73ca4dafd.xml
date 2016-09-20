@@ -1,0 +1,57 @@
+<acceptance-test-run title="Looking up the place &apos;Grand Canyon&apos;" name="Looking up the place &apos;Grand Canyon&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10148" timestamp="2016-09-20T13:27:57.394-04:00" session-id="bef2f6061e4212420045d9c51418dab4">
+  <user-story id="lookup-a-location" name="Lookup a location" path="consult_dictionary/LookupALocation.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Lookup a location" type="feature"/>
+    <tag name="Lookup a location" type="feature"/>
+  </tags>
+  <test-group name="Given the user is on the Recs.gov home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
+      <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1771">
+      <screenshots>
+        <screenshot image="6456f85e8497d62a29d1732a438ec9d3.png"/>
+        <screenshot image="0c06f4b37e63e2cbfc40d678ba0e6164.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user looks up the place &apos;Grand Canyon&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="69d2dcf2d7e40b01d19b61cdb2e3308f.png"/>
+    </screenshots>
+    <test-group name="Looks for: Grand Canyon" result="SUCCESS">
+      <screenshots>
+        <screenshot image="69d2dcf2d7e40b01d19b61cdb2e3308f.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1435">
+        <screenshots>
+          <screenshot image="10dacb540535c99f1fc2e67b4cf60f43.png"/>
+        </screenshots>
+        <description>Enters: Grand Canyon</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="1359">
+        <screenshots>
+          <screenshot image="f291e209be6b3c5cca06b4f9c091a321.png"/>
+          <screenshot image="829944129d2a8a7b660edeac24b2fa3f.png"/>
+        </screenshots>
+        <description>Starts search</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="Then they should see at least a park &apos;Near Grand Canyon, AZ&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a61a7b7460bd04537d980e66724d93f.png"/>
+      <screenshot image="ea16959e7fca71e83f86cc476adfa453.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2291">
+      <screenshots>
+        <screenshot image="0323c693f9204e45e5141b4aca2bdb52.png"/>
+        <screenshot image="ea16959e7fca71e83f86cc476adfa453.png"/>
+      </screenshots>
+      <description>Should see definition: Near Grand Canyon, AZ</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

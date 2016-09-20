@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="9104" timestamp="2016-09-20T09:49:54.361-04:00" session-id="374afc171f01ad2bb9107382376c7298">
+<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" description="" steps="4" successful="2" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="10646" timestamp="2016-09-20T11:50:45.463-04:00" session-id="d58acc6933612c4bdbac529051dee2d8">
   <user-story id="lookup-a-definition" name="Lookup a definition" path="consult_dictionary/LookupADefinition.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -9,45 +9,48 @@
     <screenshots>
       <screenshot image="0379cf03760841d659524eb671741c5a.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="4211">
+    <test-step result="SUCCESS" duration="5496">
       <screenshots>
         <screenshot image="0379cf03760841d659524eb671741c5a.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When the user looks up the definition of the word &apos;apple&apos;" result="SUCCESS">
+  <test-group name="When the user looks up the definition of the word &apos;apple&apos;" result="ERROR">
     <screenshots>
-      <screenshot image="d78aecfc827527f49a09494b76e6ee58.png"/>
+      <screenshot image="0379cf03760841d659524eb671741c5a.png"/>
     </screenshots>
-    <test-group name="Looks for: apple" result="SUCCESS">
+    <test-group name="Looks for: apple" result="ERROR">
       <screenshots>
-        <screenshot image="d78aecfc827527f49a09494b76e6ee58.png"/>
+        <screenshot image="0379cf03760841d659524eb671741c5a.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="548">
+      <test-step result="SUCCESS" duration="526">
         <screenshots>
           <screenshot image="20a769e89c6a2cc75f0347d6aedcb8f8.png"/>
         </screenshots>
         <description>Enters: apple</description>
       </test-step>
-      <test-step result="SUCCESS" duration="1176">
+      <test-step result="ERROR" duration="3325">
         <screenshots>
-          <screenshot image="8ced2b444430228c0bc620b8addcb03e.png"/>
-          <screenshot image="d78aecfc827527f49a09494b76e6ee58.png"/>
+          <screenshot image="60ec856c3e1efaf82db7e58f9751e7e1.png"/>
+          <screenshot image="c10fe5df44158330412f484d45507de3.png" source="pagesource1858035026085876182.html.txt"/>
         </screenshots>
         <description>Starts search</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;C02S2232FVH8.local&apos;, ip: &apos;10.201.28.243&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown
+[bah.pages.DictionaryPage.lookup_terms(DictionaryPage.java:33), bah.steps.serenity.EndUserSteps.starts_search(EndUserSteps.java:22), bah.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:38), bah.steps.DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(DefinitionSteps.java:22)]</exception>
       </test-step>
     </test-group>
   </test-group>
-  <test-group name="Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;" result="SUCCESS">
-    <screenshots>
-      <screenshot image="70f17085b01c7432ad46c52324198a46.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="1011">
-      <screenshots>
-        <screenshot image="c9eb102023fdfc07b80850da7ab88110.png"/>
-      </screenshots>
-      <description>Should see definition: A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.</description>
-    </test-step>
-  </test-group>
+  <test-step result="SKIPPED" duration="5">
+    <description>Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;</description>
+  </test-step>
 </acceptance-test-run>
